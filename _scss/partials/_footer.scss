@@ -1,8 +1,11 @@
-footer { 
+footer {
   @extend %padding-large;
   width: 100%;
   bottom: 0;
   left: 0;
-  text-align: center; 
+  text-align: center;
+  font-family: neue-haas-grotesk-text,sans-serif;
+font-weight: 400;
+font-style: normal;
   small { text-transform: uppercase; }
 }
