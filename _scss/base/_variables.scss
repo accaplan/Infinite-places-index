@@ -1,20 +1,20 @@
 // Colors
 
-$main-color:        mediumslateblue;  // change this color for further customization 
+$main-color:        gainsboro;  // change this color for further customization
                                       // I like http://colours.neilorangepeel.com/! Making colors semantic too ;)
 
-$bg-color:          white; // background-color
+$bg-color:          black; // background-color
 
-$text-color:        #333; 
-$link-color:        $main-color; 
-$border-color:      #e0e1e6;
+$text-color:        #000000;
+$link-color:        $main-color;
+$border-color:      #0000CD;
 $smoke-color:       #fafafa;
 
 
-// Typography 
+// Typography
 
-$font-family:       'Open Sans', sans-serif;
-$variant-family:    'Lora', Georgia, serif;
+$font-family:       font-family: 'Space Mono', monospace;
+$variant-family:    font-family: 'Space Mono', monospace;
 $font-size-l:       1.25em; // font-size on desktop type screens
 $font-size-m:       $font-size-l * 0.9; // font-size under 942px wide screens
 $font-size-s:       $font-size-l * 0.7; // font-size under 642px wide screens
