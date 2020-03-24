@@ -1,6 +1,6 @@
 # hikari
 
-Hikari is an open-source [Jekyll](http://jekyllrb.com) theme perfect for dev-savvy bloggers who wants to get started with Jekyll in a very minimal way. 
+Hikari is an open-source [Jekyll](http://jekyllrb.com) theme perfect for dev-savvy bloggers who wants to get started with Jekyll in a very minimal way.
 
 - SCSS!
 - Responsive
@@ -41,28 +41,11 @@ Hikari is an open-source [Jekyll](http://jekyllrb.com) theme perfect for dev-sav
 4. Visit the site at [http://localhost:4000](http://localhost:4000)
 
 
-### Author
-
-**Mathieu Mayer-Mazzoli**
-- <http://m3xm.github.io>
-- <http://twitter.com/mx3m>
-- <http://www.dribbble.com/m3xm>
-
-
-### Main Contributors
-
-**Ross Allen**
-- <https://github.com/ssorallen>
-
-**Julien Rousseau**
-- <https://github.com/evarouss>
-
-
 ### License
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Mathieu Mayer-Mazzoli
+Copyright (c) 2020 INFINITEPLACES
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
