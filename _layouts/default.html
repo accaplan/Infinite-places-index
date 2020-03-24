@@ -23,14 +23,14 @@
 
     <div class="off-canvas">
       <figure class="avatar">
-        <img src="{{ site.baseurl }}/assets/img/avatar.jpg" alt="Picture" title="That's me, {{ site.author }}.">
+        <img src="{{ site.baseurl }}/assets/img/avatar.png" alt="Picture" title="{{ site.author }}">
       </figure>
       <div class="bio">
-          <h1>{{ site.author }}.</h1>
+          <h1>{{ site.name }}</h1>
           <p>{{ site.author-bio }}</p>
       </div>
       <nav>
-        <h6>Follow me on</h6>
+        <h6>SOCIAL</h6>
         <ul>
           {% if site.github %}
           <li><a target="_blank" href="https://github.com/{{ site.github }}">Github</a></li>
@@ -38,6 +38,14 @@
           {% if site.instagram %}
           <li><a target="_blank" href="https://instagram.com/{{ site.instagram }}">Instagram</a></li>
           {% endif %}
+          <li><a target="_blank" href="https://github.com/{{ site.github }}">Email</a></li>
+        </ul>
+        <h6>DIRECTORY</h6>
+        <ul>
+           <li><a target="_blank" href="https://www.are.na/infinite-places{{ site.arena }}">ATLAS</a></li>
+           <li><a target="_blank" href="https://anchor.fm/infiniteplaces{{ site.anchor }}">RADIO</a></li>
+           <li><a target="_blank" href="https://instagram.com/{{ site.instagram }}">SHOP</a></li>
+           <li><a target="_blank" href="https://www.notion.so/Development-Wiki-e49dcd4b19ab43a1b32fb45654d48762{{ site.notion }}">ABOUT</a></li>
         </ul>
       </nav>
     </div>
@@ -57,7 +65,7 @@
       </main>
 
       <footer>
-        <small>&copy; {{ site.author }}</small>
+        <small>&copy; {{ site.author }} {{ "now" | date: "%Y" }}</small>
       </footer>
 
     </div>
