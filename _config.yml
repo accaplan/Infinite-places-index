@@ -1,5 +1,5 @@
 # Title of your blog; shows in the header
-name: "Infiniteplaces"
+name: "INFINITEPLACES"
 
 # Description of your content (will only be used on Google Search)
 description: "Resources for building communities"
@@ -14,15 +14,14 @@ baseurl: ""
 author-bio: "Resources for building communities"
 # Social Accounts (mine, as placeholders)
 
-twitter: mx3m
-github: m3xm
-dribbble: m3xm
-instagram: m3xm
+twitter: infiniteplaceorg
+github: infiniteplaces
+instagram: infiniteplacesorg
 
 # Google Analytics (you may want to changes these with yours or even delete :)
 
-ga_domain: m3xm.github.io
-ga_tracking_id: UA-47727049-1
+ga_domain: infiniteplacesorg.github.io
+ga_tracking_id:
 
 # Other (refer to http://jekyllrb.com/docs/home/ for further details on the below)
 
