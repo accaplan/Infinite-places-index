@@ -6,7 +6,7 @@ $main-color:        honeydew;  // change this color for further customization
 $bg-color:          black; // background-color
 
 $text-color:        #000000;
-$link-color:        $main-color;
+$link-color:        $bg-color;
 $border-color:      #000000;
 $smoke-color:       #fafafa;
 
@@ -22,7 +22,7 @@ $font-size-s:       $font-size-l * 0.7; // font-size under 642px wide screens
 
 // Spacings
 
-$spacing-xs:        .5em;
+$spacing-xs:        .125em;
 $spacing-s:         $spacing-xs * 2;
 $spacing-sm:        $spacing-s + $spacing-xs;
 $spacing-m:         $spacing-sm + $spacing-xs;
