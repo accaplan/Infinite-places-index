@@ -2,10 +2,10 @@
 # https://www.netlifycms.org/docs/configuration-options/
 
 backend:
-  name: github # Netlify’s Git Gateway connects to Git provider’s API
+  name: github # Netlify’s github connects to Git provider’s API
   branch: gh-pages # Branch to update (master by default)
   repo: accaplan/Infinite-places-index
-  site_domain: https://suspicious-meitner-bcfcab.netlify.com/
+  base_url: https://suspicious-meitner-bcfcab.netlify.com/
 
 media_folder: "assets/img/uploads" # Folder where user uploaded files should go
 
