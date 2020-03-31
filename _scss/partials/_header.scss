@@ -2,7 +2,14 @@ header {
   width: 100%;
   background: white;
 }
-
+.logo{
+  img {
+    display: block;
+    width: 100%;
+    max-width: 300px; /* change this to whatever you want the 'standard' size to be */
+    height: auto;
+  }
+}
 .h-wrap {
   @extend %padding-large;
 
@@ -151,6 +158,10 @@ header {
       border-radius: 50%;
     }
   } // end .avatar
+
+  .logo{
+    display:inline-flex;
+  }
 
 
   .bio {

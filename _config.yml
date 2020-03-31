@@ -1,5 +1,6 @@
 # Title of your blog; shows in the header
 name: "INFINITEPLACES"
+logo: "/assets/img/logo.png"
 
 # Description of your content (will only be used on Google Search)
 description: "Resources for building communities"
