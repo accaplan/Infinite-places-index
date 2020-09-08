@@ -3,8 +3,13 @@
   li {
     display: inline-block;
     width: 100%;
+<<<<<<< Updated upstream
     border-bottom: 1px solid darken($main-color, 6%);
 
+=======
+    border-bottom: 3px solid;
+    color: white;
+>>>>>>> Stashed changes
     &:first-child {
       border-top: 1px solid darken($main-color, 6%);
     }
@@ -12,6 +17,7 @@
     .p-wrap {
       padding: $spacing-ml $spacing-m;
       background: $main-color;
+      border-radius: 60px 25px 130px 40px;
       transition: all .15s ease-in;
       &:active {
         background: darken($main-color, 3%);
@@ -48,7 +54,7 @@
       color: darken($main-color, 20%);
       display: inline-block;
       padding-right: $spacing-s;
-      width: 155px;
+      width: 250px;
       @media (max-width: 942px) {
         display: block;
         width: auto;
@@ -56,7 +62,7 @@
     }
 
     a {
-      color: black;
+      color: white;
       text-decoration: none;
     }
 
@@ -65,16 +71,17 @@
 
 .pagination {
   overflow: hidden;
-  margin-top: 40px;
+  margin: 60px;
   color: lighten($text-color, 60%);
   text-align: center;
   border: 1px solid $border-color;
+
 
   a, span {
     box-sizing: border-box;
     float: left;
     width: 50%;
-    padding: 20px;
+    padding: 25px;
     text-decoration: none;
 
     &:first-child {
