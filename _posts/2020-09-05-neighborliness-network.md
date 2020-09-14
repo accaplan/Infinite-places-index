@@ -7,18 +7,17 @@ intro_paragraph: >-
   New project in the works. 
 
 
-
-
   <!--StartFragment-->
 
+  Contribute here: [Are.na](https://www.are.na/infinite-places/neighborliness-network)
 
-  <https://www.are.na/infinite-places/neighborliness-network>
 
 
   <!--EndFragment-->
 
+  Inspiration here:
 
-  [https://www.i](https://www.are.na/infinite-places/neighborliness-network)nstagram.com/neighborliness.network
+  [Instagram](https://instagram.com/neighborliness.network)
 categories: local sufficiency
 ---
 Tools for connecting with your neighbors in a human way. No profiles, just accountability.
