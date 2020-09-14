@@ -1,12 +1,12 @@
 header {
   width: 100%;
-  background: #ADFFBB;
+  background: white;
   }
 .logo{
   img {
     display: block;
     width: 100%;
-    max-width: 300px; /* change this to whatever you want the 'standard' size to be */
+    max-width: 500px; /* change this to whatever you want the 'standard' size to be */
     height: auto;
   }
 }
@@ -59,8 +59,8 @@ header {
 .menu-icon {
   @extend %padding-large;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: 10px;
   cursor: pointer;
   z-index: 200;
   &:hover {
@@ -70,9 +70,9 @@ header {
   .lines {
     display: inline-block;
     position: relative;
-    width: 25px;
-    height: 2px;
-    background: $text-color;
+    width: 40px;
+    height: 5px;
+    background: black;
     border-radius: 20px;
 
     &::before,
@@ -81,9 +81,9 @@ header {
       display: inline-block;
       position: absolute;
       left: 0;
-      width: 25px;
-      height: 2px;
-      background: $text-color;
+      width: 40px;
+      height: 5px;
+      background: black;
       border-radius: 20px;
 
       -webkit-transition: all .3s ease;
@@ -121,7 +121,7 @@ header {
   width: 100%;
   &.open {
     .menu-icon {
-      position: fixed;
+      position: absolute;
     }
   }
 }
@@ -158,10 +158,6 @@ header {
       border-radius: 50%;
     }
   } // end .avatar
-
-  .logo{
-    display:inline-flex;
-  }
 
 
   .bio {

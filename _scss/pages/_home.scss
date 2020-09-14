@@ -3,15 +3,18 @@
   li {
     display: inline-block;
     width: 100%;
-    border-bottom: 3px solid darken($main-color, 6%);
+    border-bottom: 3px solid;
+      color: white;
 
     &:first-child {
-      border-top: 3px solid darken($main-color, 6%);
+      border-top: 3px solid;
+      color: white;
     }
 
     .p-wrap {
       padding: $spacing-ml $spacing-m;
       background: $main-color;
+      border-radius: 60px 25px 130px 40px;
       transition: all .15s ease-in;
       &:active {
         background: darken($main-color, 3%);
@@ -56,7 +59,7 @@
     }
 
     a {
-      color: black;
+      color: white;
       text-decoration: none;
     }
 
