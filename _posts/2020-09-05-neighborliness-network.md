@@ -15,7 +15,7 @@ intro_paragraph: >-
 
   <!--EndFragment-->
 
-  Inspiration here:
+  Follow along here:
 
   [Instagram](https://instagram.com/neighborliness.network)
 categories: local sufficiency
