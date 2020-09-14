@@ -21,3 +21,7 @@ intro_paragraph: >-
 categories: local sufficiency
 ---
 Tools for connecting with your neighbors in a human way. No profiles, just accountability.
+
+Looking for contributers, designers and engineers and anyone who get it.
+
+Why do we need to rely on these big companies for our needs? Want to compost, want to share wi-fi? Connect with your neighbors!
